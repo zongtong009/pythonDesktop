@@ -1,0 +1,12 @@
+sta="ddd"
+print(sta)
+num1=12
+num2=3.4
+print(num1,num2)
+num3=num1*num2
+num4=num1-num2
+num5=num1/num2
+print(num3,num4,num5)
+#
+'''
+'''

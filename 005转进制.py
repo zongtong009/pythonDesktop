@@ -1,0 +1,1 @@
+print(hex(11),oct(11),bin(11),int(0xb))

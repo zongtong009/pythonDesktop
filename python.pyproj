@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3676024b-3563-4c1b-8663-667f75b83811}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>-------错误示范.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="-------错误示范.py" />
+    <Compile Include="0000Hello World.py" />
+    <Compile Include="000温度转换.PY" />
+    <Compile Include="001小白.py" />
+    <Compile Include="002N的0-6次方.py" />
+    <Compile Include="003精简温度转换.py" />
+    <Compile Include="004竖直输出.py" />
+    <Compile Include="0051英寸换米.py" />
+    <Compile Include="005货币转换.py" />
+    <Compile Include="006同切圆.py" />
+    <Compile Include="007五角星.py" />
+    <Compile Include="008普通计算.py" />
+    <Compile Include="009斐波那契数列.py" />
+    <Compile Include="010斐波那契数列.py" />
+    <Compile Include="011斐波那契数列.py" />
+    <Compile Include="0121.py" />
+    <Compile Include="0122.py" />
+    <Compile Include="0123.py" />
+    <Compile Include="0124.py" />
+    <Compile Include="012绘制蟒蛇.py" />
+    <Compile Include="013daydayup.py" />
+    <Compile Include="013daydayup2.py" />
+    <Compile Include="014字符串切片.py" />
+    <Compile Include="014文本进度条.py" />
+    <Compile Include="014获得星期字符串.py" />
+    <Compile Include="014进度条时间.py" />
+    <Compile Include="015专用文件运行计时器.py" />
+    <Compile Include="016二分支.py" />
+    <Compile Include="016单分支.py" />
+    <Compile Include="016多分枝.py" />
+    <Compile Include="016条件判断.py" />
+    <Compile Include="017异常++.py" />
+    <Compile Include="017异常处理.py" />
+    <Compile Include="018BMI.py" />
+    <Compile Include="019列表遍历循环.py" />
+    <Compile Include="019字符串遍历循环.py" />
+    <Compile Include="019定次循环.py" />
+    <Compile Include="019控制循环.py" />
+    <Compile Include="019文件遍历.py" />
+    <Compile Include="019遍历循环.py" />
+    <Compile Include="020无限循环.py" />
+    <Compile Include="020随机数.py" />
+    <Compile Include="020随机数函数.py" />
+    <Compile Include="021定义函数.py" />
+    <Compile Include="12星座.py" />
+    <Compile Include="2018tencentadvertisement.py" />
+    <Compile Include="994随机排序.py" />
+    <Compile Include="995填充.py" />
+    <Compile Include="996错误示范.py" />
+    <Compile Include="997文件查找.py" />
+    <Compile Include="998输入检索.py" />
+    <Compile Include="999快速换行.py" />
+    <Compile Include="sleep.py" />
+    <Compile Include="time1.py" />
+    <Compile Include="time库.py" />
+    <Compile Include="Untitled-1.py" />
+    <Compile Include="userfeature.data.py" />
+    <Compile Include="π的计算.py" />
+    <Compile Include="爬取CSDN.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Screenshots\QQ截图20180420174343.png" />
+    <Content Include="Screenshots\Screenshot_2017-04-23-20-47-34-824_com.tencent.mtt.jpg" />
+    <Content Include="Screenshots\Screenshot_2017-09-10-20-31-45-475_com.tencent.mobileqq.jpg" />
+    <Content Include="Screenshots\Screenshot_2017-09-12-22-41-45-583_com.tencent.mobileqq.jpg" />
+    <Content Include="Screenshots\Screenshot_2017-09-12-22-42-01-180_com.tencent.mobileqq.jpg" />
+    <Content Include="Screenshots\Screenshot_2017-09-12-22-42-09-665_com.tencent.mobileqq.jpg" />
+    <Content Include="Screenshots\Screenshot_2018-02-22-12-16-16-737_com.sina.weibo.jpg" />
+    <Content Include="图片收藏\083358_3704934206_1_701_476.jpg" />
+    <Content Include="图片收藏\103748_3872454927_1_771_725.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Screenshots" />
+    <Folder Include="图片收藏" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
