@@ -7,6 +7,7 @@ Created on Thu May 10 19:31:45 2018
 
 s="PYTHON"
 
-print("{:.2s}".format(s))
+print("{:10.2s}".format(s))
+print("{:>10s}".format(s))
 
 print (s[1:3])
