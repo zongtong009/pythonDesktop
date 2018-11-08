@@ -2,7 +2,6 @@ import math
 
 # 判断质数
 def isprime(x):
-    # 判断语句
     div_num = 2
     if x==1 or x==4:
         return False
@@ -12,9 +11,8 @@ def isprime(x):
         pass
     while div_num <= math.sqrt(x):
         if x % div_num == 0:
-            return False  # 停止判断
+            return False  
         div_num += 1
-        # 判断为质数后的操作
     else:
         return True
 
@@ -27,6 +25,7 @@ def ismonisen(x):
         return False
 
 # 主函数
+
 if __name__ == "__main__":
     num_list = [1, 2, 3, 4, 5, 6, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41]
     result_list = []
@@ -37,8 +36,8 @@ if __name__ == "__main__":
             print(num, end=' ')
             result_list.append(str(temp) + ' ')
     print('')
-    
 
-with open("myf2.out", "w") as fp:     # 写入输出文件
+
+with open("myf2.out", "a") as fp:     # 写入输出文件
     fp.writelines(result_list)
-    fp.write("\nMy exam number is: 01124001232516")
+    fp.write("\nMy exam number is: 01124001232516\n")

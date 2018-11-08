@@ -1,8 +1,12 @@
-from turtle import *
-color('red', 'red')
-begin_fill()
+import turtle
+
+t=turtle.Turtle()
+
+t.color('red', 'red')
+t.begin_fill()
 for i in range(5):
-    fd(200)
-    rt(144)
-end_fill()
-done()
+    t.fd(200)
+    t.rt(144)
+t.end_fill()
+turtle.done()
+

@@ -1,6 +1,6 @@
 try:
-  print("Hello")
+    print("Hello")
 except:
-  print("Something went wrong")
+    print("Something went wrong")
 else:
-  print("Nothing went wrong")
+    print("Nothing went wrong")

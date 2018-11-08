@@ -29,7 +29,7 @@ def splitByLineCount(filename,count):
             sub = mkSubFile(buf,head,filename,sub)   
     finally:
         fin.close()
- 
+
 if __name__ == '__main__':
     begin = time.time()
     splitByLineCount('28GB超大密码字典.txt',6000000)
