@@ -2,6 +2,7 @@
 """
 Created on Fri Sep 21 01:55:14 2018
 
+计算叠乘最后一位非0数位
 @author: Administrator
 """
 def fac(n):
