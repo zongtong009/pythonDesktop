@@ -21,7 +21,7 @@ for i in range(scale+1):
 
 
 print("\n"+"执行结束".center(scale//2,'-'))
-
+input()
 '''
 for i in range(101):
     print("\r{:3}%".format(i),end="")
