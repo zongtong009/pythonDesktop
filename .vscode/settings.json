@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "G:\\Anaconda3\\python.exe",
+    "python.pythonPath": "C:\\ProgramData\\Anaconda3\\python.exe",
     "python.autoComplete.addBrackets": true,
     "python.linting.pylintEnabled": true,
 }
