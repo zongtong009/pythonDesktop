@@ -1,3 +1,4 @@
-s = 'gfdsgdf \
+s = 'gfdsgdf\
 fsdfs'
 print(s)
+
